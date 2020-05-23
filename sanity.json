@@ -1,0 +1,49 @@
+{
+  "paths": {
+    "source": "./src",
+    "compiled": "./lib"
+  },
+
+  "parts": [
+    {
+      "implements": "part:@sanity/base/schema-type",
+      "path": "food.js"
+    },
+    {
+      "implements": "part:@sanity/base/schema-type",
+      "path": "record.js"
+    },
+    {
+      "implements": "part:@sanity/base/schema-type",
+      "path": "settings.js"
+    },
+    {
+      "implements": "part:@sanity/base/schema-type",
+      "path": "profile.js"
+    },
+    {
+      "implements": "part:@sanity/base/schema-type",
+      "path": "systemSettings.js"
+    },
+    {
+      "implements": "part:@sanity/base/schema-type",
+      "path": "foodReference.js"
+    },
+    {
+      "implements": "part:@sanity/base/schema-type",
+      "path": "macro.js"
+    },
+    {
+      "implements": "part:@sanity/base/schema-type",
+      "path": "mood.js"
+    },
+    {
+      "implements": "part:@sanity/base/schema-type",
+      "path": "nutrition.js"
+    },
+    {
+      "implements": "part:@sanity/base/schema-type",
+      "path": "rich-text.js"
+    }
+  ]
+}

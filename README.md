@@ -1,0 +1,1 @@
+# Hey Sugar Sanity Schema
