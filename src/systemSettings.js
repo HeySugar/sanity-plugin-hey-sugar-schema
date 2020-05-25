@@ -50,7 +50,7 @@ export default {
     {
       title: "Show Graph (Experimental)",
       description:
-        "If you select this, we will plot your results on a graph. Please note this is currently an experimental feature.",
+        "If you enable this, we will plot your results on a graph. Please note this is currently an experimental feature.",
       name: "showGraph",
       type: "boolean",
       fieldset: "bloodSettings",
