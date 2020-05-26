@@ -13,11 +13,4 @@ export default {
       type: "systemSettings",
     },
   ],
-  initialValue: {
-    systemSettings: {
-      unit: "mmol",
-      hyperLimit: 10,
-      hypoLimit: 4,
-    },
-  },
 };
