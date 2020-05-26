@@ -47,5 +47,13 @@ export default {
       fieldset: "bloodSettings",
       validation: (Rule) => Rule.required(),
     },
+    {
+      title: "Show Graph (Experimental)",
+      description:
+        "If you enable this, we will plot your results on a graph. Please note this is currently an experimental feature.",
+      name: "showGraph",
+      type: "boolean",
+      fieldset: "bloodSettings",
+    },
   ],
 };
