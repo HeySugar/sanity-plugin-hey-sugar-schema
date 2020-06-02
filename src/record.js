@@ -17,6 +17,12 @@ export default {
       validation: (Rule) => Rule.required(),
     },
     {
+      name: "insulinDose",
+      type: "number",
+      title: "Insulin Dose",
+      description: "If you took insulin, how much did you take?",
+    },
+    {
       title: "Time Logged",
       name: "loggedAt",
       description: "What date/time did the blood test take place?",

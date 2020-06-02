@@ -9,6 +9,7 @@ export default {
       title: "Total Carbs (g)",
       type: "number",
       name: "carbohydrates",
+      validation: (Rule) => Rule.required(),
     },
     {
       title: "Total Fats (g)",
